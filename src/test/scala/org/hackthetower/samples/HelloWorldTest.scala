@@ -10,7 +10,4 @@ class HelloWorldTest extends FunSuite with Matchers {
   test("Should say hello") {
     new HelloWorld().sayHello() shouldBe "Hello world"
   }
-  test("Should sum correctly 2 simple numbers") {
-    new HelloWorld().sum(2, 3) shouldBe 5
-  }
 }

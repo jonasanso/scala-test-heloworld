@@ -10,7 +10,5 @@ public class HelloWorld {
     public String sayHello() {
         return "Hello world";
     }
-    public Integer sum(Integer a, Integer b) {
-        return a + b;
-    }
+
 }
